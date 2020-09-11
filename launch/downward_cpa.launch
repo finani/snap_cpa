@@ -40,7 +40,7 @@
 
   <include file="$(find snap_cam_ros)/launch/downward.launch">
     <arg name="nodelet_manager_name" value="$(arg nodelet_manager_name)"/>
-    <arg name="is_cam_master" value="true"/>
+    <arg name="is_cam_master" value="false"/>
   </include>
 
   <group ns="$(arg cam_name)">
